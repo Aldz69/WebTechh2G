@@ -1,0 +1,185 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width:100%;
+	height:100%;
+	font-size:14px;
+	font-weight:normal;
+}
+.background{
+	width:100%;
+	height:100%;
+	background-image: url(../imagealdwin/bg.png);
+	background-repeat: repeat-x;
+	background-size: cover;
+	position:relative;
+	overflow-y:auto;
+}
+.lee{
+	width: 350px;
+	height:auto;
+	
+	position: absolute;
+	top: 20%;
+	left:0;
+}
+.lee a{
+	text-decoration:none;
+	font-size:28px;
+	font-family:verdana;
+	font-weight:bold;
+	
+	height:90px;
+	margin:5px 0;
+	float:left;
+	display:inline-block;
+	background-color:black;
+	color:white;
+	line-height :90px;
+	text-align:center;
+	transition:300ms;
+	
+}
+a.active,.lee a:hover{
+	background-color :white;
+	color:black;
+}
+.a{
+	width:95%;
+}
+.b{
+	width:85%;
+}
+.c{
+	width:80%;
+}
+.d{
+	width:80%;
+}
+.content{
+	position:absolute;
+	width :930px;
+	min-height: 500px;
+	height:auto;
+	
+	right:0;
+	top:10%;
+}
+.home{
+	position:absolute;
+	right:0;
+	bottom:0;
+	color:white;
+	font-family:verdana;
+	text-transform:uppercase;
+}
+.home h1{
+	font-size:65px;
+	padding-right:165px;
+	border-bottom:1px solid white;
+
+}
+.home h2{
+	font-size:28;
+	 padding: 5px 0;
+	 opacity:0.6;
+}
+.aboutme{
+	position:absolute;
+	right:0;
+	top:10px;
+	color:white;
+	font-family:century gothic;
+	text-transform:uppercase;
+	padding:0 50px;
+	display:none;
+}
+.aboutus p{
+	font-size:18px;
+	line-height:20px;
+	margin-bottom:10px;
+}
+.gallery{
+	position:absolute;
+	left:0;
+	top:10px;
+	color:white;
+	padding:0 60px;
+	display:none;
+}
+.gallery .image{
+	width:40%;
+	margin:4%;
+	float: left;
+}
+.image img{
+	width :100%;
+	-webkit-transition:all ease 0.5s;
+	transform:scale(1);
+	-webkit-transform:scale(1);
+}
+.image img:hover{
+	transform:scale(1.2); 
+	-webkit-transform:scale(1.2); 
+}
+.activity {
+	position:absolute;
+	left:0;
+	top:50px;
+	color:red;
+	font-family:century gothic;
+	text-transform:uppercase;
+	padding:0 0px;
+	display:none;
+}
+.activity button{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size:28px;
+	font-family:verdana;
+	font-weight:bold;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 100px;
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white; 
+	color: black; 
+	border: 2px solid #008CBA;
+}
+.activity button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
